@@ -8,3 +8,4 @@ query_name = input()
 
 if query_name in student_marks:
     print("{:.2f}".format(sum(student_marks[query_name]) / len(student_marks[query_name])))
+    
